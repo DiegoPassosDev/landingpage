@@ -15,4 +15,13 @@
     background: $white-color;
     color: $purple-color;
   }
+
+  &.full {
+    padding: 21px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 600;
+    color: $gray4-color;
+    background: $green3-color;
+  }
 }

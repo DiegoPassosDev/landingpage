@@ -11,13 +11,17 @@ const Button = ({ title, kind }) => {
     if (kind === "secundary") {
       return Styles.secundary;
     }
+    if (kind === "full") {
+      return Styles.full;
+    }
     return Styles.primary;
   };
 
-  return( 
+  return (
     <button className={`${Styles.button} ${generationsClassByKind()}`}>
       {title}
     </button>
-)};
+  );
+};
 
 export default Button;
